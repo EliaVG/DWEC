@@ -1,2 +1,2 @@
 # DWEC
-Examples of Client Environment Web Development
+Examples for Client Environment Web Development
