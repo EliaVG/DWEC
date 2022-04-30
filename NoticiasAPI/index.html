@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias API</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="noticias">
+    </div>
+
+    <div id="fuente">
+        <label><input type="checkbox" id="abc" checked>ABC News</label>
+        <label><input type="checkbox" id="forbes">Forbes</label>
+        <label><input type="checkbox" id="google">Google News</label>
+        <label><input type="checkbox" id="el_mundo">El Mundo</label>
+        <label><input type="checkbox" id="cnn">CNN</label>
+        <label><input type="checkbox" id="bbc">BBC News</label>
+
+        <button id="filtra_fuente" type="submit">Filtrar</button>
+    </div>
+
+    <div id="idioma">
+        <label><input type="checkbox" id="ingles">English</label>
+        <label><input type="checkbox" id="espaniol">Español</label>
+        <label><input type="checkbox" id="frances">Français</label>
+
+        <button id="filtra_idioma" type="submit">Cambiar idioma</button>
+    </div>
+
+    <button id="cargar_mas">Cargar más</button>
+
+    <input type="text" id="buscar_texto" placeholder="Buscar por título">
+    <button id="buscar" type="submit">Buscar</button>
+
+    <img id="cargando" src="loading.gif">
+
+    <script src="noticias.js"></script>
+</body>
+</html>
